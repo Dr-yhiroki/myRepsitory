@@ -7,4 +7,4 @@ $ laravel new oic_2017_2
 $ composer install 
 $ composer require laravel/homestead --dev
 $ vagrant up
-````
+````# myRepositry
