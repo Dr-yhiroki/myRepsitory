@@ -1,0 +1,62 @@
+.input_form {
+margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 0;
+  width: 48%;
+
+  float: left;
+}
+
+.purchaselist {
+  margin-bottom: 2%;
+  margin-right: 2%;
+  width: 48%;
+  height: 320px;
+  float: right;
+  display: inline-block;
+  position: relative;
+}
+
+.b-list {
+  width: auto;
+  height: 190px;
+  border: solid 1px #ccc;
+  overflow: auto;
+  background-color: #ffffff;
+}
+
+.b-name {
+  width: auto;
+  float: left;
+
+}
+
+.b-money {
+  width: auto;
+  float: right;
+}
+
+.b-count {
+  float: right;
+  width: 100px;
+  display: inline-block;
+}
+
+
+.b-sum {
+  width: 100%;
+  float: left;
+  position: absolute;
+  bottom: 20px;
+}
+
+
+.box {
+  width: 100%;
+  height: 500px;
+  display: inline-block;
+}
+
+p.errormessage {
+  color: red;
+}

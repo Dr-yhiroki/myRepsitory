@@ -1,0 +1,26 @@
+/* 横スクロールリストの要素 */
+div.item {
+    /* 程よい余白のため */
+    margin: 0px 5px 0px 0px;
+    padding: 5px;
+    /* 程よいサイズ */
+    width: 100px;
+    height: 100px;
+    /* 枠線 */
+    border: 1px solid black;
+    /* インラインブロックにして改行しないブロックに */
+    display: inline-block;
+}
+
+
+/* 横スクロールリストのコンテナ */
+div.container {
+    white-space: nowrap;
+    overflow-x: scroll;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+p {
+  margin-left: 15px;
+}

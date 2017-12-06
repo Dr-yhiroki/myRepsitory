@@ -1,0 +1,35 @@
+.button{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ECECEC;
+    transition: .4s;
+  }
+
+.button:hover {
+    background: #00bcd4;
+    color: white;
+}
+
+.box label{
+	display: block;
+	padding: 10px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.box input[type="checkbox"].on-off,
+.box input[type="checkbox"].on-off +div{
+	display: none;
+}
+
+.box input[type="checkbox"].on-off:checked +div{
+	display: block;
+}
+
+.box div{
+	margin: 0 0 20px;
+}
